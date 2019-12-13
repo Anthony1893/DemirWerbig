@@ -1,0 +1,93 @@
+
+body{
+    background-color: black;
+    font-family: Verdana, sans-serif;
+    margin:0
+}
+.navbar {
+    overflow: hidden;
+    background-color: #001E3C;
+}
+
+.navbar a {
+    float: left;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+#abstand{
+
+    height: 500px;
+}
+
+#rechts {
+    background-image: url("../image/gesund.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titelmitte{
+    position: relative;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px  3px 3px black;
+    padding-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+
+.navbar a:hover, .dropdown:hover  {
+    background-color: #E21B4D;
+}
+
+.footer-basic-centered{
+    background-color: #001E3C;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font: normal 18px sans-serif;
+
+    padding: 45px;
+    margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto{
+    color:  lightgray;
+    font-size: 20px;
+    margin: 0;
+}
+.footer-basic-centered .arnold{
+    color:  #8d9093;
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+    color:  #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+    list-style: none;
+    font-weight: bold;
+    color:  #ffffff;
+    padding: 35px 0 23px;
+    margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+    display:inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+
