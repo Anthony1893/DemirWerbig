@@ -63,8 +63,9 @@ body{
     height: 550px;
 }
 
-.c:hover {
+.c:hover{
     background-color: #E21B4D;
+
 }
 
 .footer-basic-centered{

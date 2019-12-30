@@ -35,7 +35,7 @@ body{
     font: normal 18px sans-serif;
 
     padding: 45px;
-    margin-top: 80px;
+    margin-top: 6%;
 }
 
 .footer-basic-centered .footer-company-motto{
@@ -67,10 +67,32 @@ body{
     display:inline-block;
     text-decoration: none;
     color: inherit;
-    image-orientation: a;
 }
+#abstand {
+    height: auto;
+}
+.unter{
+}
+.eMail{
+    color: #E21B4D;
+}
+.titel{
 
-#abstand{
 
-    height: 500px;
+}
+#flex-container {
+
+    display: flex;
+    width: 100%;
+}
+#bild{
+
+    width: auto;
+    max-height: 400px;
+}
+.flex-item {
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+
 }
