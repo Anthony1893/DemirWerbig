@@ -53,7 +53,12 @@ body{
     text-decoration: none;
 
 }
+video::-webkit-media-controls-panel{
+
+}
 #video{
+
+    overflow: hidden;
     margin-top: 5%;
     background-attachment: fixed;
     background-position: center;
