@@ -17,23 +17,11 @@
     <a id="text1" aria-disabled="true">Bed Bull</a>
     <!-- einzeiliger Kommentar  <p id="text1">Bed Bull hello</p> -->
 </div>
-<video id="video" autoplay loop onmouseover="this.play()">
+<center>
+<video id="video" autoplay loop controls >
     <source  src="video/DemirProjekt100.mp4" type="video/mp4">
-    <script>$(document).ready(function() {
-        $('.video').each(function(i, obj) {
-            $(this).on("mouseover", function() { hoverVideo(i); });
-        });
-    });
-
-    function hoverVideo(i) {
-        $('.thevideo')[i].play();
-    }
-
-    function hideVideo(i) {
-        $('.thevideo')[i].pause();
-    }</script>
 </video>
-
+</center>
 <div id="flex-container">
     <div class="flex-item">
         <img src="image/logo.png" alt="Der" class="bild">
